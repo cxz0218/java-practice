@@ -1,0 +1,101 @@
+@CHARSET "UTF-8";
+/* 初始界面 */
+.content {
+	width: 100%;
+	height: 610px;
+	background-image: url(img/library.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
+	margin-top: 60px;
+	text-align: center;
+	background-repeat: no-repeat;
+}
+
+.content .bigText {
+	font-size: 64px;
+	height: 67px;
+	width: 100%;
+	display: block;
+	color: #ffffff;
+	top: 300px;
+	text-align: center;
+	position: relative;
+	top: 200px;
+}
+
+.content .smallText {
+	padding-top: 20px;
+	font-size: 20px;
+	color: rgba(255, 255, 255, 0.65);
+	line-height: 1.6;
+	text-align: center;
+}
+
+/* 登录页面 */
+.content-flex {
+	max-width: 1080px;
+	margin: 60px auto 0 auto;
+	position: relative;
+}
+
+.content .formGap {
+	width: 600px;
+	height: 400px;
+	position: absolute;
+	top: 100px;
+	left: 220px;
+	background-color: #ffffff;
+	padding: 50px 20px 20px 20px;
+	text-align: left;
+}
+
+.firstTD {
+	margin-left: 20px;
+}
+
+.form-group {
+	padding-bottom: 20px;
+}
+
+.form-group input.onegap {
+	margin-left: 15px;
+}
+
+/*主要功能页*/
+.tableDiv {
+	width: 100%;
+	padding: 20px;
+	background: #fff;
+	border: 2px solid #ECECEC;
+}
+
+.tableDiv tr.firstTR {
+	border-bottom: 1px solid #666;
+}
+
+.tableDiv tr.firstTR td {
+	padding: 20px;
+}
+/*搜索图书*/
+.searchDiv {
+	width: 100%;
+	padding: 20px;
+	background:#fff;
+}
+
+.selectDiv {
+	display: inline-block;
+	padding-left: 150px;
+}
+
+.formDiv {
+	display: inline-block;
+	
+}
+.searchDiv div.formDiv div.form-group {
+	vertical-align: top;
+}
+ table.table {
+    margin-top: 30px
+ }
